@@ -314,6 +314,7 @@
 .address__footer-main {
     justify-self: start;
 }
+
 .address__footer {
     display: flex;
     flex-direction: column;
