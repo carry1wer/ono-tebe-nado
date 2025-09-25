@@ -1,1 +1,1 @@
-https://github.com/carry1wer/second-project
+https://github.com/carry1wer/ono-tebe-nado
