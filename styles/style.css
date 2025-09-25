@@ -52,7 +52,6 @@
     font-size: 18px;
     font-weight: 400;
     font-family: Raleway, serif;
-    line-height: 24px;
     font-style: normal;
     text-underline-offset: 4px;
     line-height: 135%;
@@ -239,75 +238,79 @@
 }
 
 .about {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin-bottom: 180px;
-    align-items: start;
-    gap: 27px;
+  margin-bottom: 180px;
 }
 
-.circle-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 240px;
-    margin-top: 36px;
-    margin-left: 73px;
-    background-color: black;
-    border-radius: 50%;
+.about__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+  gap: 27px;
 }
 
-.about-logo {
-    display: block;
-    width: 148px;
-    height: 114px;
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  margin-top: 36px;
+  margin-left: 73px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
-.about__auction {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    padding-right: 30px;
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .about__title {
-    margin-top: 135px;
-    font-family: Raleway, serif;
-    font-weight: 700;
-    font-size: 40px;
-    text-transform: uppercase;
+  margin-top: 135px;
+  margin-bottom: 70px;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .about__text {
-    padding-top: -30px;
-    color: #000;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    line-height: 120%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.about__text-paragraph {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 90px;
+    margin-bottom: 82px;
     padding-right: 52px;
     padding-left: 52px;
-    padding-bottom: 50px;
 }
 
 .footer-menu-list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     font-size: 18px;
     font-weight: 400;
     list-style: none;
+    padding-right: 15px;
 }
 
 .footer__menu-list-item {
@@ -337,7 +340,7 @@
 
 .footer__social-list {
     display: flex;
-    gap: 46px;
+    gap: 47px;
     justify-content: end;
 }
 
